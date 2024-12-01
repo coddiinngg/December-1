@@ -1,0 +1,31 @@
+.MoviePage-frame{
+    margin-top: 50px;
+}
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+    --bs-pagination-padding-x: 0.75rem !important;
+    --bs-pagination-padding-y: 0.375rem !important;
+    --bs-pagination-font-size: 1rem !important;
+    --bs-pagination-color: #cc1f1f !important;
+    --bs-pagination-bg: none !important;
+    --bs-pagination-border-width: var(--bs-border-width);
+    --bs-pagination-border-color: none !important;
+    --bs-pagination-border-radius: var(--bs-border-radius);
+    --bs-pagination-hover-color: #fff!important;
+    --bs-pagination-hover-bg: #cc1f1f!important;
+    --bs-pagination-hover-border-color: var(--bs-border-color);
+    --bs-pagination-focus-color: #fff!important;
+    --bs-pagination-focus-bg: #aa0d0d!important;
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem #cc1f1f57!important;;
+    --bs-pagination-active-color: #fff!important;
+    --bs-pagination-active-bg: #cc1f1f!important;
+    --bs-pagination-active-border-color: #cc1f1f!important;
+    --bs-pagination-disabled-color: #fff!important;
+    --bs-pagination-disabled-bg: #cc1f1f!important;
+    --bs-pagination-disabled-border-color: none !important;
+}
+.pagination li{
+    color: black;
+}

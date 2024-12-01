@@ -1,0 +1,12 @@
+.video{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    --bs-modal-bg: #000000;
+}
+.modal-footer{
+    border-top: 0 !important;
+}

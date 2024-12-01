@@ -1,0 +1,9 @@
+.dropdown-menu{
+    --bs-dropdown-link-active-bg: rgb(220, 53, 69) !important;
+}
+.dropdown{
+    display: flex;
+}
+.dropdown-margin{
+    margin-right: 10px;
+}

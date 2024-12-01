@@ -1,0 +1,21 @@
+.backgroundColor{
+    background-color: black;
+}
+.Link{
+    color: white;
+    margin-left: 15px;
+    padding: 0 5px;
+    text-decoration-line: none;
+}
+.Logo{
+    margin: 0 20px;
+    height: 27px;
+    cursor: pointer;
+}
+.stick{
+    position: fixed;
+    top : 0;
+    width: 100%;
+    z-index: 3;
+    padding: 10px;
+}

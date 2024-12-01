@@ -1,0 +1,39 @@
+.movie-card{
+    width: 220px;
+    height: 330px;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.over-text{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+    opacity: 0;
+    transition: all 0.5s;
+    color: white;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+.over-text:hover{
+    opacity: 1;
+}
+
+.movie-card:hover{
+    transform: scale(1.3) translateZ(20px);
+    z-index: 2;
+}
+.vote{
+    width: 40px;
+    margin: 0 5px;
+    margin-left: 10px;
+}
+.center{
+    display: flex;
+}
+@media (min-width: 1440px) {
+    .movie-card{
+        width: 80%;
+    }
+}

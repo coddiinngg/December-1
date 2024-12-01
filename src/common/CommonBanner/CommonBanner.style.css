@@ -1,0 +1,54 @@
+.Banner{
+    width: 100%;
+    height: 56vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Banner:before{
+    content: "";
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.795), transparent);
+    position: absolute;
+    left: 0;
+    height: 56vh;
+    width: 100%;
+}
+.text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding-left: 15px;
+}
+.text > *{
+    z-index: 2;
+}
+.banner-title{
+    display: flex;
+    align-items: center;
+}
+.banner-title h1{
+    margin-right: 10px;
+}
+.banner-title button{
+    height: 40px;
+}
+.banner-frame{
+    margin-top: 40px;
+}
+@media (max-width: 768px) {
+    .Banner{
+        height: 40vh;
+    }
+    .Banner:before{
+        height: 40vh;
+    }
+
+}
+@media (max-width: 375px) {
+    .text{
+        font-size: 10px;
+        width: 100%;
+    }
+}
